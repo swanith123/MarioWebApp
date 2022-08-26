@@ -1,0 +1,55 @@
+.heading{
+width: 100%;
+text-align: left;
+}
+
+h1{
+    display: inline;
+    font-size: 30px;
+}
+
+#DirectionsBTN{
+    float: right;
+    border: 2px solid white; 
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+#marioImg{
+    width: 100%;
+    height: 80%;
+}
+
+#playBTN, #status{
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#copyright-footer{
+    margin: 0px;
+    background-color: rgb(175, 0, 0);
+    color: lightskyblue;
+    line-height: 2;
+}
+
+.modal_dialog{
+    width: 90%;
+}
+
+.instructionsImg{
+    width: 45%;
+    display: inline-block;
+}
+
+#instructionsH1{
+    font-size: 20px;
+}
+
+video{
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
